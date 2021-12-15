@@ -1,0 +1,192 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    line-height: 1em;
+    font-size: 4.5em;
+}
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+.btn-outline-light {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+}
+
+/* navbar */
+
+.bg-color {
+    background-color: #ffff;
+}
+
+.nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-border {
+    border-style: solid;
+    border-width: 2px;
+}
+
+.nav-border a {
+    color: #2B282F !important; 
+}
+
+.nav-border:hover { 
+    background-color:#2B282F;
+}
+
+.nav-border:hover a { 
+    color: #ffff !important;
+}
+
+/* hero */
+
+.bg-violet {
+    background-color: #2d2640 ;
+}
+
+.hero-content {
+    margin-top: 110px;
+    margin-bottom: 135px;
+}
+
+.hero-content hr {
+    height: 2px;
+    width: 25%;
+    color: #ffff;
+    margin-bottom: 65px;
+}
+
+.hero-content h1 {
+    color: #ffff;
+    margin-bottom: 25px;
+}
+
+.hero-content p {
+    line-height: 1.8em;
+    color: #ded7e4;
+}
+
+.hero-image img {
+    position: absolute;
+    top : 200px;
+    z-index: 1;
+}
+
+.pattern-left-desktop {
+    position: absolute;
+    top : 600px;
+    left: -30px;
+    z-index: 1;
+}
+
+.pattern-right-desktop {
+    position: absolute;
+    top: 92px;
+    right: 0px;
+    z-index: 1;
+}
+
+/* features */
+
+#features {
+    margin-top: 300px;
+    margin-bottom: 160px;
+}
+
+#features .row hr {
+    width:12.5%;
+    color: #2d2640;
+    margin-bottom: 65px;
+}
+
+#features .row h1 {
+    margin-bottom: 105px;
+}
+
+.features-item img {
+    margin-bottom: 40px;
+}
+
+.features-item h2 {
+    margin-bottom: 20px;
+}
+
+.features-item p {
+    color: #A09EA1;
+}
+
+/* how */
+
+#how {
+    background-color: #2d2640;
+    background-image: url('images/bg-pattern-how-we-work-desktop.svg');
+    background-position-x: right;
+    background-repeat: no-repeat;
+    padding: 70px;
+    margin-bottom: 150px;
+}
+
+#how h1 {
+    font-size: 3em;
+    color: #ffff;
+}
+
+
+/* footer */
+
+#footer {
+    position: relative;
+    padding: 70px 0;
+    background-color: #FAFAFA;
+    background-image: url('images/bg-pattern-footer-desktop.svg');
+    background-repeat: no-repeat;
+}
+
+#footer h5 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #A09EA1;
+    margin-bottom: 40px;
+}
+
+#footer .social-icon {
+    color: #837D88;
+    font-size: 2em;
+    margin-left: 16px;
+}
+
+#footer .social-icon:hover {
+    color: #23212C;
+    transition: 0.3s;
+}
+
+#footer hr {
+    margin-bottom: 50px;
+}
+
+#footer .nav-link {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #23212C;
+}
+
+#footer .nav-link:hover {
+    text-decoration: underline;
+}
