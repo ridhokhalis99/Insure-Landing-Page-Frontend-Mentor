@@ -50,7 +50,7 @@
     }
 
     .pattern-left-desktop{
-        content: url(images/bg-pattern-intro-left-desktop.svg);
+        content: url(images/bg-pattern-intro-left.svg);
         width: 120px;
         top: 350px;
     }
@@ -70,7 +70,15 @@
 
     #features {
         margin-top: 150px;
-        margin-bottom: 100px;
+        margin-bottom: 70px;
+    }
+
+    #features h1 {
+        margin-bottom: 60px;
+    }
+
+    #features .features-item {
+        margin-bottom: 40px;
     }
 
     #features hr {
@@ -80,7 +88,7 @@
     }
 
     #how {
-        margin-bottom: 150px;
+        margin-bottom: 120px;
     }
 
     #how button {
@@ -90,6 +98,16 @@
 
     #footer {
         padding-bottom: 20px;
+    }
+
+    #footer img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    #footer h5 {
+        font-size: 1.1em;
     }
 
     #footer .contact {
@@ -117,11 +135,5 @@
     #how {
         background-position: 150% 0;
        background-size: auto 360px;
-    }
-
-    #footer img {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
     }
  }
