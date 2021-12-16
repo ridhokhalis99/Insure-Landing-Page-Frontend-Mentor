@@ -31,9 +31,6 @@ p {
 .navbar .navbar-toggler-icon {
     background-color: #fff;
     background:  url(images/icon-hamburger.svg) center;
-    padding: 0;
-    border: none;
-    background: none;
 }
 
 .nav-link {
