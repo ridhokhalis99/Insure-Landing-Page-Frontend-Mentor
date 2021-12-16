@@ -79,14 +79,6 @@
         margin-right: auto;
     }
 
-    #features h1 {
-        margin-bottom: 50px;
-    }
-
-    #features .features-item {
-        margin-bottom: 30px;
-    }
-
     #how {
         margin-bottom: 150px;
     }
@@ -118,7 +110,7 @@
 
  @media (max-width: 1200px) { 
     .hero-image img {
-        top: 380px;
+        top: 350px;
         width: 450px;
     }
 
