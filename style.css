@@ -5,7 +5,6 @@ body {
 
 h1 {
     font-family: 'DM Serif Display', serif;
-    line-height: 1em;
     font-size: 4.5em;
 }
 
@@ -28,10 +27,9 @@ p {
 
 /* navbar */
 
-.navbar .navbar-toggler-icon {
-    background-color: #fff;
-    background:  url(images/icon-hamburger.svg) center;
-}
+.navbar-button {
+    display: none;
+  }
 
 .nav-link {
     font-weight: 700;
@@ -44,15 +42,15 @@ p {
     margin-left: 30px;
 }
 
-.nav-border a {
+.nav-cta a {
     color: #2B282F !important; 
 }
 
-.nav-border:hover { 
+.nav-cta:hover { 
     background-color:#2B282F;
 }
 
-.nav-border:hover a { 
+.nav-cta:hover a { 
     color: #ffff !important;
 }
 
@@ -89,6 +87,10 @@ p {
     top : 200px;
     z-index: 1;
     margin-right: auto;
+}
+
+.hero-img-mobile {
+    display: none;
 }
 
 .pattern-left-desktop {

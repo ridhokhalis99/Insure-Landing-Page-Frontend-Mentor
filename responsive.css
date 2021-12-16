@@ -10,28 +10,54 @@
         text-align: center;
     }
 
+    h1 {
+        font-size: 3.2em;
+    }
+
+    .navbar-button {
+        display: block;
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        transition: box-shadow 0.15s ease-in-out;
+    }
+
+    .nav-item {
+        margin-top: 15px;
+    }
+    
     .nav-cta {
         margin-left: 0;
     }
 
-    .bg-violet {
-        background-image: url('images/bg-pattern-intro-left-desktop.svg');
-        background-position: 0% 45%;
-        background-repeat: no-repeat;
+    .hero-image img{
+        display: none;
     }
 
-    .hero-image img{
-        content: url(images/image-intro-mobile.jpg);
+    .hero-img-mobile {
+        display: flex;
+        min-height: 400px;
+        width: 100vw;
+        margin-left: -12px;
+        margin-right: -12px;
+        background: linear-gradient(rgba(45, 38, 64, 0.3), rgba(45, 38, 64, 1)),
+            url("images/image-intro.jpg");
+        background-size: cover;
+        background-position: center;
     }
-    
+
     .pattern-left-desktop{
-        display: none;
+        content: url(images/bg-pattern-intro-left-desktop.svg);
+        width: 120px;
+        top: 350px;
     }
 
     .pattern-right-desktop{
         content: url(images/bg-pattern-intro-right-mobile.svg);
-        top: 1050px;
-        right: px;
+        top: 850px;
     }
 
     #hero hr {
@@ -43,7 +69,8 @@
     }
 
     #features {
-        margin-top: 250px;
+        margin-top: 150px;
+        margin-bottom: 100px;
     }
 
     #features hr {
@@ -54,10 +81,16 @@
 
     #how {
         background-position: 200% 0%;
+        margin-bottom: 150px;
     }
 
     #how button {
+        margin-top: 30px;
         float: none !important;
+    }
+
+    #footer {
+        padding-bottom: 20px;
     }
 
     #footer .contact {
