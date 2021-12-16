@@ -143,6 +143,7 @@ p {
 #how {
     background-color: #2d2640;
     background-image: url('images/bg-pattern-how-we-work-desktop.svg');
+    background-size: auto 265px;
     background-position-x: right;
     background-repeat: no-repeat;
     padding: 70px;

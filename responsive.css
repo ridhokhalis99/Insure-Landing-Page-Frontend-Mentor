@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
     #how {
-        background-position: -500% 0% !important;
-        background-size: auto 340px !important;
+        background-position: -250% 0% !important;
+        background-size: auto 360px !important;
     }
 }
 
@@ -88,7 +88,6 @@
     }
 
     #how {
-        background-position: 200% 0%;
         margin-bottom: 150px;
     }
 
@@ -124,7 +123,8 @@
     }
 
     #how {
-    background-size: auto 300px;
+        background-position: 150% 0;
+       background-size: auto 360px;
     }
 
     #footer img {
