@@ -28,8 +28,12 @@ p {
 
 /* navbar */
 
-.bg-color {
-    background-color: #ffff;
+.navbar .navbar-toggler-icon {
+    background-color: #fff;
+    background:  url(images/icon-hamburger.svg) center;
+    padding: 0;
+    border: none;
+    background: none;
 }
 
 .nav-link {
@@ -37,9 +41,10 @@ p {
     text-transform: uppercase;
 }
 
-.nav-border {
+.nav-cta {
     border-style: solid;
     border-width: 2px;
+    margin-left: 30px;
 }
 
 .nav-border a {
@@ -86,6 +91,7 @@ p {
     position: absolute;
     top : 200px;
     z-index: 1;
+    margin-right: auto;
 }
 
 .pattern-left-desktop {
@@ -109,13 +115,13 @@ p {
     margin-bottom: 160px;
 }
 
-#features .row hr {
+#features hr {
     width:12.5%;
     color: #2d2640;
     margin-bottom: 65px;
 }
 
-#features .row h1 {
+#features h1 {
     margin-bottom: 105px;
 }
 
@@ -146,7 +152,6 @@ p {
     font-size: 3em;
     color: #ffff;
 }
-
 
 /* footer */
 

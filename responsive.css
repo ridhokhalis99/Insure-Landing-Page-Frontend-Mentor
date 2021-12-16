@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+    #how {
+        background-position: -500% 0% !important;
+        background-size: auto 340px !important;
+    }
+}
+
+@media (max-width: 992px) { 
+    body {
+        text-align: center;
+    }
+
+    .nav-cta {
+        margin-left: 0;
+    }
+
+    .bg-violet {
+        background-image: url('images/bg-pattern-intro-left-desktop.svg');
+        background-position: 0% 45%;
+        background-repeat: no-repeat;
+    }
+
+    .hero-image img{
+        content: url(images/image-intro-mobile.jpg);
+    }
+    
+    .pattern-left-desktop{
+        display: none;
+    }
+
+    .pattern-right-desktop{
+        content: url(images/bg-pattern-intro-right-mobile.svg);
+        top: 1050px;
+        right: px;
+    }
+
+    #hero hr {
+        display: none;
+    }
+ 
+    .hero-image img {
+        position: static;
+    }
+
+    #features {
+        margin-top: 250px;
+    }
+
+    #features hr {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #how {
+        background-position: 200% 0%;
+    }
+
+    #how button {
+        float: none !important;
+    }
+ }
+
+ @media (max-width: 1200px) { 
+    .hero-image img {
+        top: 350px;
+        width: 450px;
+    }
+
+    #how {
+    background-size: auto 300px;
+    }
+
+    #footer img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    #footer .contact{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    #footer .contact a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
