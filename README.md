@@ -22,7 +22,3 @@ Users should be able to:
 - HTML
 - CSS
 - Bootstrap
-
-### Live Site
-
-https://festive-visvesvaraya-c76a82.netlify.app/
